@@ -3,17 +3,15 @@ user:
   github: Paradopia
 
 language: "python"
-python_version: "3.12"
+python_version: "3.10"
 
 commands:
   build:
-    - "pip install -U -r requirements.txt"
+    - "pip install -r requirements.txt"
   package:
-    - "ffmpeg"
-    - "build-essential"
-    - "libffi-dev"
+    - "nano inxi"
   start:
-    - "python3 -m Grabber"
+    - "python3 Grabber"
 
 env:
   - "ENVIRONMENT=production"
