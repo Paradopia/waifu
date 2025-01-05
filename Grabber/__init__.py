@@ -16,16 +16,16 @@ logging.getLogger('httpx').setLevel(logging.WARNING)
 logging.getLogger("pyrate_limiter").setLevel(logging.ERROR)
 LOGGER = logging.getLogger(__name__)
 
-OWNER_ID = "5116239739"
-sudo_users = ["5116239739", "6590287973"]
-GROUP_ID = "-1002010986967"
-TOKEN = "6770670571:AAFiM9-vMtWJMic2L4OUZEZs39l_hOvZO_o"
+OWNER_ID = "7701655337"
+sudo_users = ["7701655337"]
+GROUP_ID = "-1002237183191"
+TOKEN = "7763885337:AAG-2bLbCKFABnW3g2FNHU8mcrPE8G5QcV8"
 mongo_url = "mongodb+srv://tiwarireeta004:peqxLEd36RAg7ors@cluster0.furypd3.mongodb.net/?retryWrites=true&w=majority"
 PHOTO_URL = ["https://telegra.ph/file/a17bbdf36197b0f0eb2c1.jpg", "https://telegra.ph/file/4754711cd88be32baf5b4.jpg", "https://telegra.ph/file/46b1151c6088fabc62250.jpg", "https://telegra.ph/file/4ed692d4e678216f87083.jpg"]
-SUPPORT_CHAT = "welovewesimp"
+SUPPORT_CHAT = "ParadopiaSupport"
 UPDATE_CHAT = "Anime Girl trade and Gift"
-BOT_USERNAME = "Seducer_charm_bot"
-CHARA_CHANNEL_ID = "-1002010986967"
+BOT_USERNAME = "WaifuGrabber_Bot"
+CHARA_CHANNEL_ID = "-1002237183191"
 api_id = "20457610"
 api_hash = "b7de0dfecd19375d3f84dbedaeb92537"
 
