@@ -1,0 +1,19 @@
+user:
+  name: Paradopia
+  github: Paradopia
+
+language: "python"
+python_version: "3.12"
+
+commands:
+  build:
+    - "pip install -U -r requirements.txt"
+  package:
+    - "ffmpeg"
+    - "build-essential"
+    - "libffi-dev"
+  start:
+    - "python3 -m Grabber"
+
+env:
+  - "ENVIRONMENT=production"
